@@ -1,0 +1,11 @@
+<?php declare(strict_types=1);
+require_once 'database/dataCollection.php';
+require_once 'database/databaseConfig.php';
+require_once 'database/sqlFactory.php';
+require_once 'authentication/register.php';
+require_once 'authentication/validator.php';
+require_once 'authentication/login.php';
+require_once 'authentication/logout.php';
+require_once 'project.php';
+require_once 'edit.php';
+require_once 'skillmatrix.php';

@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: {
+    family: 'Arial', sans-serif;
+  }
+}
+
+table {
+  margin: 20px;
+  border: 1px solid;
+  text-align: left;
+}
+
+td, th {
+  padding: 10px;
+}
+
+#button {
+  text-align: center;
+  padding-bottom: 20px;
+
+  > input {
+    font-size: 1.2rem;
+    color: green;
+    padding: 5px;
+  }
+}
+
+.knowledge {
+  padding: 0 5px 0 5px;
+  text-align: center;
+  font-size: 1rem;
+  cursor:pointer;
+
+}
+
+.background {
+  background: lightgrey;
+}
+
+.div_row{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  cursor:pointer;
+
+}
+th{
+  cursor:pointer;
+
+}
+.div_skill:hover{
+  transform: scale(1.2);
+}
+
+input{
+  margin-right: 5px;
+}
+
+.mentor{
+  background: darkseagreen;
+}
+
+.help{
+  background: lightcoral;
+}
